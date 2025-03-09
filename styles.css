@@ -1,0 +1,15 @@
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 320px;
+}
+
+.square {
+  width: 18px;
+  height: 18px;
+  background-color: gold;
+  border: 1px solid red;
+}
