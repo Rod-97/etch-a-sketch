@@ -1,5 +1,36 @@
+:root {
+  --navy-blue: rgb(0, 102, 204);
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: gold;
+  font-size: 32px;
+}
+
 #size-btn {
   margin-bottom: 30px;
+  color: var(--navy-blue);
+  font-weight: bold;
+  font-size: 20px;
+  background-color: gold;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 10px;
+
+  &:hover {
+    color: gold;
+    background-color: var(--navy-blue);
+    border-color: gold;
+  }
 }
 
 #container {
@@ -7,7 +38,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  border: 3px solid black;
+  border: 3px solid gold;
+  border-radius: 5px;
 }
 
 .square {

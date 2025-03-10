@@ -1,5 +1,5 @@
 const container = document.querySelector("#container");
-const containerSize = 480;
+const containerSize = 360;
 container.style.height = `${containerSize}px`;
 container.style.width = `${containerSize}px`;
 
